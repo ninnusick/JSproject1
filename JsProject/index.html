@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js.js" defer></script>
+    <script src="dino.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="./modwindf.js" defer></script>
+    <link rel="stylesheet" href="modWind.css">
+    <link rel="stylesheet" href="modwinds.html">
+    <script src="maxNmbrs.js" defer></script>
+    <script src="./js2.js" defer></script>
+    <link rel="stylesheet" href="styler.css">
+
+  </head>
+
+
+  <body>
+    <header id="themeMode">
+  <!-- <img class="header-img" src="./Group 2.jpg" alt=""> -->
+  <div class="header-img"></div>
+   <p class="header-nav" href="#">Coding</p>
+   <p class="header-p" href="#">Magic</p>
+<ul>
+   <li class="header-item">
+    <p class="header-link" href="#">Інтерактив</p>
+    </li>
+    <li class="header-item">
+    <p class="header-li" href="#">Наша команда</p>
+    </li>
+    <li class="header-item">
+    <p class="header-ul" href="#">Контакти</p>
+    </li>
+    <li class="header-item">
+    <p class="header-a" href="#">Вітаємо, User!</p>
+    </li>
+</ul>
+ <div class="switchDiv">
+        <label class="switch">
+               <input type="checkbox" id="btnSwitch" />
+               <span class="slider round"></span>
+            </label>
+          </div>
+</header>
+    <main id="themeMode">
+      <div class="section" >
+        <h3 class="popular">Популярні інетрактивні ігри</h3>
+        <hr />
+        <div class="card">
+          <h1 class="subtitle">Перевір в який рік ти народився</h1>
+
+          <div class="card-task">
+            <div class="inputIcon">
+              <i id="fa-search"></i>
+              <input type="text" id="yr" placeholder="Введіть рік народження" />
+            </div>
+            <p id="answerTask1"></p>
+          </div>
+        </div>
+        <hr/>
+
+
+        <div class="card">
+            <h1 class="subtitle">Вгадай число, яке загадав комп’ютер</h1>
+
+          <div class="card-task">
+            <div class="inputIcon">
+              <i id="fa-search2"></i>
+              <input type="text" id="nb" placeholder="Введіть число"/>
+            </div>
+            <p id="answerTask"></p>
+          </div>
+        </div>
+        <hr />
+        </div>
+          <!-- kira's part -->
+
+          <div id="dinoTask">
+          <div class="dino-container">
+            <h1 class="subtitle">Google динозавр</h3>
+	
+	<div class="wrapper-dino">
+
+            <canvas class="dino-canvas"></canvas>
+          
+          </div>
+
+          <!-- kira's part -->
+
+          <div class="nmbrs">
+            <hr>
+            <h1 class="subtitle">Введіть 3 числа</h1>
+            <div class="nmbrsInput">
+              <input type="text" id="firstNmbrs" placeholder="Введіть число">
+              <input type="text" id="scndNmbrs" placeholder="Введіть число">
+              <input type="text" id="thirdNmbrs" placeholder="Введіть число">
+            </div>
+            <h6 class="descrNmbrs">Найбільше число, яке ви ввели - <span id="answerNmbrs"></span></h6>
+          </div>
+</div>
+
+<section class="container">
+      <hr class="hr1" />
+      <p class="capt">Камінь - ножиці - папір</p>
+
+      <input
+        class="stone"
+        type="image"
+        onclick="getUser(`rock`) "
+        src="./img-1.jpg"
+      />
+      <input
+        class="scissors"
+        type="image"
+        onclick="getUser(`scissors`) "
+        src="./img-2.jpg"
+      />
+      <input
+        class="paper"
+        type="image"
+        onclick="getUser(`paper`) "
+        src="./img-3.jpg"
+      />
+
+      <p class="numeric">Рахунок: Комп’ютер - 0 Ви - 0</p>
+      <p class="game">Ви виграли раунд!</p>
+      <button class="fancy">Варіант комп’ютера</button>
+      <hr class="hr2" />
+
+      <div class="texts">
+        <p class="textt">Калькулятор</p>
+        <input class="input" type="text" id="jon" value="Введіть число" />
+
+        <p class="imgq" onclick="getSumvol(`+`)">+</p>
+        <p class="imge" onclick="getSumvol(`-`)">-</p>
+        <p class="imgr" onclick="getSumvol(`/`)">/</p>
+        <p class="imgd" onclick="getSumvol(`*`)">*</p>
+
+        <input class="inputt" type="text" id="cater" value="Введіть число" />
+
+        <p class="imginput">=</p>
+
+        <input class="inp" type="text" id="got" value="Результат" />
+      </div>
+
+      <hr class="hr3" />
+
+      <p class="hour">Калькулятор часу</p>
+      <input class="input-group" type="text" id=" vor" value="Введіть число" />
+      <input class="input-group-lg" type="image" id="cora" src="./icon.jpg" />
+      <p class="houra">3 дн. 15:45:01</p>
+
+
+      <p class="futbol">Футбол</p>
+      <div class="box" id="field">
+        <input class="boll" id="ball" type="image" src="./ball.svg" />
+      </div>
+    </section>
+  </body>
+</html>
+    </main>
+
+    <footer id="themeMode">
+            <img class="footerImg" src="imgs/footerimg.png" alt="">
+            <div class="footerDivP"><p class="footerP">
+Тел: +38 (123) 456 78 90 <br>
+E-Mail: codingmagic@gmail.com <br>
+Facebook: CodingMagic <br>
+Twitter: CodingMagic <br>
+Instagram: CodingMagic</p>
+</div>
+            <div class="footerInput">
+              <input type="text" id="inpFtr" placeholder="Ваша ел. адреса...">
+              <button class="futSubscribe">Підписатись</button>
+              <p class="ftrLastP">*Підписавшись, Ви зможете ортимувати інформацію про новинки на сайті</p>
+            </div>
+
+          </footer>
+
+          <div class="mod-sub">
+    <p class="title-sub">Дякую за підписку!</p>
+    <i class="i-close"></i>
+    <i class="i-bar"></i>
+    <i class="i-gameBar"></i>
+    <i class="i-puzzle"></i>
+    <i class="i-sword"></i>
+  </div>
+  </body>
+</html>

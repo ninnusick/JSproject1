@@ -1,0 +1,809 @@
+.container {
+  position: absolute;
+  width: 1090px;
+  left: 175px;
+  top: 580px;
+}
+
+.title {
+  position: absolute;
+  width: 386px;
+  height: 29px;
+  left: 527px;
+  top: 116px;
+}
+
+.hr1 {
+  position: absolute;
+  width: 536px;
+  height: 0px;
+  left: 402px;
+  top: 507px;
+
+  border: 1px solid #000000;
+}
+
+.capt {
+  position: absolute;
+  width: 195px;
+  height: 20px;
+  left: 622px;
+  top: 553px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.stone {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 592px;
+  top: 599px;
+
+  border-radius: 20px;
+}
+
+.scissors {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 690px;
+  top: 599px;
+
+  border-radius: 20px;
+}
+
+.paper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 788px;
+  top: 599px;
+
+  border-radius: 20px;
+}
+
+.numeric {
+  position: absolute;
+  width: 93px;
+  height: 60px;
+  left: 952px;
+  top: 599px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+
+  color: #000000;
+}
+.game {
+  position: absolute;
+  width: 120px;
+  height: 15px;
+  left: 660px;
+  top: 695px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.fancy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 20px;
+
+  position: absolute;
+  width: 190px;
+  height: 35px;
+  left: 629px;
+  top: 746px;
+
+  color: #a44545;
+  background: #0c0c0c;
+  border-radius: 20px;
+}
+
+.hr2 {
+  position: absolute;
+  width: 536px;
+  height: 0px;
+  left: 402px;
+  top: 817px;
+
+  border: 1px solid #000000;
+}
+
+.textt {
+  position: absolute;
+  width: 119px;
+  height: 20px;
+  left: 660px;
+  top: 873px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 135px;
+  height: 35px;
+  left: 405px;
+  top: 922px;
+
+  background: #d7d7d7;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.imgq {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  left: 578px;
+  top: 909px;
+
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.imge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 580px;
+  top: 944px;
+
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.imgr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 615px;
+  top: 944px;
+
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 3px 3px 0px rgba(199, 193, 193, 0.25);
+  border-radius: 20px;
+}
+
+.imgd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 615px;
+  top: 909px;
+
+  background: #000000;
+  color: #d7d7d7;
+  box-shadow: 3px 3px 0px rgba(247, 243, 243, 0.25);
+  border-radius: 20px;
+}
+
+.inputt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 135px;
+  height: 35px;
+  left: 678px;
+  top: 922px;
+
+  background: #d7d7d7;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.imginput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  left: 851px;
+  top: 927px;
+
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.inp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 118px;
+  height: 35px;
+  left: 916px;
+  top: 922px;
+
+  background: #d7d7d7;
+  border-radius: 20px;
+}
+
+.hr3 {
+  position: absolute;
+  width: 536px;
+  height: 0px;
+  left: 402px;
+  top: 1005px;
+
+  border: 1px solid #000000;
+}
+
+.hour {
+  position: absolute;
+  width: 163px;
+  height: 20px;
+  left: 638px;
+  top: 1061px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 45px 10px 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 487px;
+  top: 1097px;
+
+  background: #d7d7d7;
+  border-radius: 20px;
+}
+
+.input-group-lg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 602px;
+  top: 1097px;
+
+  background: #000000;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.houra {
+  position: absolute;
+  width: 76px;
+  height: 15px;
+  left: 803px;
+  top: 1107px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.hr4 {
+  position: absolute;
+  width: 536px;
+  height: 0px;
+  left: 402px;
+  top: 2099px;
+
+  border: 1px solid #000000;
+}
+
+/* futbol */
+
+.futbol {
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  left: 683px;
+  top: 1593px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 720px;
+  height: 220px;
+  left: 360px;
+  top: 1629px;
+
+  background: #64ce64;
+  border: 2px solid #000000;
+  border-radius: 37px;
+}
+
+.boll {
+  width: 50px;
+  height: 50px;
+  left: 452px;
+  top: 1714px;
+}
+
+/* .manu{
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 649px;
+    top: 2135px;
+    
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000; 
+}
+
+.img1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 645px;
+    top: 2191px;
+    
+    border-radius: 20px;  
+}
+
+.imya{
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 662px;
+    top: 2361px;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+ 
+    color: #000000;
+}
+
+.dom{
+    position: absolute;
+    width: 315px;
+    height: 15px;
+    left: 562px;
+    top: 2398px;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000; 
+}
+
+.hr5{
+    position: absolute;
+    width: 536px;
+    height: 0px;
+    left: 452px;
+    top: 2476px;
+    
+    border: 1px solid #000000;
+}
+
+.mod{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 645px;
+    top: 2512px;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   
+    color: #000000; 
+}
+
+.img2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 432px;
+    top: 2568px;
+ 
+    border-radius: 20px; 
+}
+
+.img3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 591px;
+    top: 2568px;
+
+    border-radius: 20px;
+}
+
+.img4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 750px;
+    top: 2568px;
+
+    border-radius: 20px; 
+}
+
+.img5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 909px;
+    top: 2568px;
+
+    border-radius: 20px; 
+}
+
+.img6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 432px;
+    top: 2704px;
+
+    border-radius: 20px;
+}
+
+.img7{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 591px;
+    top: 2704px;
+    
+    border-radius: 20px;
+}
+
+.img8{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 750px;
+    top: 2704px;
+
+    border-radius: 20px;
+}
+
+.img9{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 909px;
+    top: 2704px;
+
+    border-radius: 20px; 
+}
+
+.img10{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 432px;
+    top: 2840px;
+
+    border-radius: 20px;
+}
+
+.img11{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 591px;
+    top: 2840px;
+
+    border-radius: 20px; 
+}
+
+.img12{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 750px;
+    top: 2840px;
+
+    border-radius: 20px; 
+}
+
+.img13{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 909px;
+    top: 2840px;
+
+    border-radius: 20px;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 260px;
+    height: 35px;
+    left: 475px;
+    top: 2976px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 340px;
+    height: 35px;
+    left: 738px;
+    top: 2976px;
+    
+    background: #000000;
+    color: #bea1a1;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+}
+
+.button3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 420px;
+    top: 3031px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button4{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 738px;
+    top: 3031px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button5{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 322px;
+    top: 3086px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button6{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 420px;
+    height: 35px;
+    left: 738px;
+    top: 3086px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button7{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 385px;
+    height: 35px;
+    left: 373px;
+    top: 3141px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+}
+
+.button8{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 838px;
+    top: 3141px;
+    
+    background: #000000;
+    color: #c04a4a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button9{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 530px;
+    height: 35px;
+    left: 475px;
+    top: 3211px;
+    
+    background: #000000;
+    color: #d05a5a;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+} */

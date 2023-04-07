@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap");
+
+.title-sub {
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 83px;
+}
+.mod-sub {
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 20px;
+  position: fixed;
+  width: 463px;
+  height: 245px;
+  top: 35%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s linear;
+
+  opacity: 1;
+  display: none;
+  justify-content: center;
+}
+
+.mod-sub.open {
+  transform: translateY(-100px);
+  opacity: 1;
+  display: flex;
+}
+
+.i-close {
+  background: url(imgs/cancel3.svg) no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+.i-bar {
+  background: url(imgs/game-development.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 42px;
+  top: 69px;
+}
+.i-gameBar {
+  background: url(imgs/tic-tac-toe\ 1.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 86px;
+  top: 145px;
+}
+.i-puzzle {
+  background: url(imgs/puzzle\ 1.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 346px;
+  top: 145px;
+}
+.i-sword {
+  background: url(imgs/sword\ 1.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 43px;
+  top: 69px;
+}
